@@ -1,0 +1,36 @@
+<!DOCTYPE>
+<html>
+<head>
+  <title>WE_LOVEAutaya</title>
+  <link rel="stylesheet" type="text/css" href="assets/style/style_index.css">
+
+  <!-- Bootstrap core CSS -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style\static\vendor\bootstrap\css\bootstrap.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+</head>
+<body>
+  <a href="home.html" target="_blank">
+    <video autoplay muted loop id="myVideo">
+      <source src="Img/INTRO.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    </a>
+  </body>
+  <script>
+    var video = document.getElementById("myVideo");
+    var btn = document.getElementById("myBtn");
+
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+  </script>
+  </html>

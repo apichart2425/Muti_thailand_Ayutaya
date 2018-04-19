@@ -1,0 +1,54 @@
+@font-face {
+   font-family: ThisMyFontYeah;
+   src: url(../Arabica-file/ttf/Arabica.ttf);
+}
+.myfont{
+    font-family:ThisMyFontYeah;
+}
+.zoom {
+    padding: 2.5px;
+    transition: transform .2s;
+/*    width: 200px;
+    height: 600px;*/
+/*    margin: auto;*/
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scaleX(1.5);
+
+}
+.item {
+    width: 200px;
+    float: left;
+}
+.item img {
+    display: block;
+    width: 100%;
+}
+.food{
+    width: 350px;
+    height: 350px;
+    padding: 0px;
+    /*margin: auto;*/
+}
+.textfood{
+    font-size: 25px;
+    /*position : ;*/
+}
+#img_list{
+    height: 500px;
+    width: 300px;
+}
+#texttravel{
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+}
+#row_set{
+    padding-top: 50px;
+    padding-left: 20px;
+}
+

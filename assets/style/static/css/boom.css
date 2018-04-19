@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit|PT+Sans');
+*{
+    font-family: 'PT Sans', sans-serif;
+}
+.cardimg>a{
+    text-decoration: none !important;
+    color: #fff;
+    transition: 0.3s;
+}
+.cardimg>a:hover{
+    color: #232323;
+}
+input[type=search] {
+    width: 250px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=search]:focus {
+    width: 100%;
+}
+.form-group{
+    width: 200px;
+    margin: 1% auto;
+    border-radius: 4px;
+}
+label{
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0.2em auto;
+}
+#myModal{
+    width: 100%;
+}
+.modal-content{
+    width: 800px;
+    height: 800px;
+}
+.allimg{
+    /*margin-left: 40%;*/
+}
+.cardimg{
+    margin: 2px 0px 2px 0px;
+    /*width: 300px;*/
+    /*height: 450px;*/
+    /*padding: 2px;*/
+    padding-top: 20px;
+
+    /*background-color: #fff;*/
+    /*border: 2px solid #232323;*/
+    color: #fff;
+    border-radius: 15px;
+    transition: 0.3s;
+    font-size: 30px;
+}
+.cardimg#credit{
+    margin: 2px 0px 2px 0px;
+    /*width: 300px;*/
+    /*height: 450px;*/
+    /*padding: 2px;*/
+    padding-top: 20px;
+    /*background-color: #fff;*/
+    /*border: 2px solid #232323;*/
+    color: #fff;
+    border-radius: 15px;
+    transition: 0.3s;
+    font-size: 30px;   
+}
+.cardimg:hover{
+    color: #000;
+    background-color: #fff;
+}
+.img_incard{
+    width: 250px;
+    height: 250px;
+}
+.acrad{
+    width: 300px;
+    height: 350px;
+    background-color: blue;
+}
+.showtwo{
+    background-color: red;
+}
