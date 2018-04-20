@@ -28,18 +28,20 @@
         </style>
         <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
-    <body data-spy="scroll" data-target="#main_navbar">
+    <body data-spy="scroll" data-target="#main_navbar" class="myfont">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div class='preloader'><div class='loaded'>&nbsp;</div></div>
-        <nav class="navbar navbar-default navbar-fixed-top" id="main_navbar">
+        <nav class="navbar navbar-default navbar-fixed-top " id="main_navbar">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     
-                    <a class="tets" href="index.html">
-                        <h1 id="nav-button">Welcome to Ayutthaya</h1>
+                    <a class="tets" href="home.html">
+                        <div>
+                            <h1 id="nav-button">Welcome to Ayutthaya</h1>
+                        </div>
                     </a>
                 </div>
 
@@ -54,7 +56,14 @@
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
-
+        <section>
+            <a href="index.html" target="_blank">
+                <video autoplay muted loop id="myVideo" style="width: 100%; height: 100%; padding: 0; margin: 0;">
+                    <source src="Img/INTRO.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
+            </a>
+        </section>
         <section id="portfolio" class="portfolio lightbg sections">
             <div class="container">
                 <div class="row">
@@ -66,84 +75,79 @@
                                     <button class="button " data-filter=".new">New Update</button>
                                     <button class="button " data-filter=".metal">Foods</button>
                                     <button class="button " data-filter=".transition">Travel</button>
-                                    <button class="button " data-filter=".alkali, .alkaline-earth">Brand</button>
-                                    <button class="button " data-filter=".alkali, .metal">Web Design</button>
+                                    <!-- <button class="button " data-filter=".alkali, .alkaline-earth">Brand</button> -->
+                                    <!-- <button class="button " data-filter=".alkali, .metal">Web Design</button> -->
                                 </div>
                             </div>
 
                             <div class="portffolio_content_deteals">
                                 <div class="portfolio-one">
 
-                                    <div class="col-sm-4 col-xs-12 portfolio-item transition metal new" data-category="transition" data-filer="222">
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition metal new" data-category="transition">
                                         <div class="single_portfolio_img">
-                                            <a class="" href="food.html#link2" src="link2"><img src="assets/images/portfolio/1.jpg"/></a>
-                                            <h2>kkk 25/96/8564</h2>
+                                            <a class="" href="food.html#food-p1" src=""><img src="Img/img food/Ayutthaya5.jpg"/></a>
+                                            <h2>Food1 25/96/8564</h2>
                                         </div>
 
                                     </div>
 
-                                    <div class="col-sm-4 col-xs-12 portfolio-item metalloid " data-category="metalloid" data-filer="222">
+                                    <div class="col-sm-4 col-xs-12 portfolio-item metalloid " data-category="metalloid">
                                         <div class="single_portfolio_img">
-                                            <a class="portfolio-img " href="assets/images/portfolio/2.jpg"><img src="assets/images/portfolio/2.jpg" alt="" /></a>
-                                            <h2>222Neque Porro Quisquam</h2>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="col-sm-4 col-xs-12 portfolio-item post-transition metal " data-category="post-transition"  data-filer="222">
-                                        <div class="single_portfolio_img">
-                                            <a class="portfolio-img" href="assets/images/portfolio/3.jpg"><img src="assets/images/portfolio/3.jpg" alt="" /></a>
-                                            <h2>Neque Porro Quisquam</h2>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="transition">
-                                        <div class="single_portfolio_img">
-                                            <a class="portfolio-img" href="assets/images/portfolio/4.jpg"><img src="assets/images/portfolio/1.jpg" alt="" /></a>
-                                            <h2>a</h2>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali metal " data-category="alkali">
-                                        <div class="single_portfolio_img">
-                                            <a class="portfolio-img" href="assets/images/portfolio/5.jpg"><img src="assets/images/portfolio/5.jpg" alt="" /></a>
-                                            <h2>a</h2>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali metal " data-category="alkali">
-                                        <div class="single_portfolio_img">
-                                            <a class="portfolio-img" href="assets/images/portfolio/6.jpg"><img src="assets/images/portfolio/6.jpg" alt="" /></a>
-                                            <h2>a</h2>
+                                            <a class="" href="food.html#food-p2"><img src="Img/img food/salapao.jpg" alt="" /></a>
+                                            <h2>Food2 24/62/5246</h2>
                                         </div>
                                     </div>
 
-                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali metal " data-category="alkali">
-                                        <div class="single_portfolio_img">
-                                            <a class="portfolio-img" href="assets/images/portfolio/6.jpg"><img src="assets/images/portfolio/6.jpg" alt="" /></a>
-                                            <h2>a</h2>
-                                        </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item metalloid " data-category="metalloid">
+                                            <div class="single_portfolio_img">
+                                                <a class="" href="food.html#food-p2"><img src="Img/img food/bangprapai.jpg" alt="" /></a>
+                                                <h2>Food2 24/62/5246</h2>
+                                            </div>
                                     </div>
 
-                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali metal " data-category="alkali">
-                                        <div class="single_portfolio_img">
-                                            <a class="portfolio-img" href="assets/images/portfolio/6.jpg"><img src="assets/images/portfolio/6.jpg" alt="" /></a>
-                                            <h2>a</h2>
-                                        </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item metalloid " data-category="metalloid">
+                                            <div class="single_portfolio_img">
+                                                <a class="" href="food.html#food-p2"><img src="Img/img food/guichai.jpg" alt="" /></a>
+                                                <h2>Food2 24/62/5246</h2>
+                                            </div>
                                     </div>
 
-                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali metal " data-category="alkali">
-                                        <div class="single_portfolio_img">
-                                            <a class="portfolio-img" href="assets/images/portfolio/6.jpg"><img src="assets/images/portfolio/6.jpg" alt="" /></a>
-                                            <h2>a</h2>
-                                        </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item metalloid " data-category="metalloid">
+                                            <div class="single_portfolio_img">
+                                                <a class="" href="food.html#food-p2"><img src="Img/img food/kaicheek.jpg" alt="" /></a>
+                                                <h2>Food2 24/62/5246</h2>
+                                            </div>
+                                    </div>
+
+                                    <div class="col-sm-4 col-xs-12 portfolio-item metalloid " data-category="metalloid">
+                                            <div class="single_portfolio_img">
+                                                <a class="" href="food.html#food-p2"><img src="Img/img food/kaomungai.jpg" alt="" /></a>
+                                                <h2>Food2 24/62/5246</h2>
+                                            </div>
+                                    </div>
+
+                                    <div class="col-sm-4 col-xs-12 portfolio-item metalloid " data-category="metalloid">
+                                            <div class="single_portfolio_img">
+                                                <a class="" href="food.html#food-p2"><img src="Img/img food/saimai.jpg" alt="" /></a>
+                                                <h2>Food2 24/62/5246</h2>
+                                            </div>
+                                    </div>
+
+                                    <div class="col-sm-4 col-xs-12 portfolio-item metalloid " data-category="metalloid">
+                                            <div class="single_portfolio_img">
+                                                <a class="" href="food.html#food-p2"><img src="Img/img food/salapao.jpg" alt="" /></a>
+                                                <h2>Food2 24/62/5246</h2>
+                                            </div>
+                                    </div>
+
+                                    <div class="col-sm-4 col-xs-12 portfolio-item metalloid " data-category="metalloid">
+                                            <div class="single_portfolio_img">
+                                                <a class="" href="food.html#food-p2"><img src="Img/img food/pakwan.jpg" alt="" /></a>
+                                                <h2>Food2 24/62/5246</h2>
+                                            </div>
                                     </div>
 
                                 </div>
-                                <!-- <a href="home.html#all_page" class="btn btn-primary">Show More</a> -->
                             </div>
                         </div>
                     </div>
