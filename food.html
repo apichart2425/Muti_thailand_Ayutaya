@@ -30,10 +30,15 @@
         .bg_body{
             background-color: hsl(0,100%,0%)
         } 
+        .grad1 {
+            height: 200px;
+            background-color: #cccccc;
+            background-image: linear-gradient(hsl(27, 99%, 31%), hsl(35, 99%, 95%));
+        }
     </style>
 <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
-<body data-spy="scroll" data-target="#main_navbar" class="myfont">
+<body data-spy="scroll" data-target="#main_navbar" class="myfont" background="Img/bg.jpg"> 
         <div class='preloader'><div class='loaded'>&nbsp;</div></div>
         <nav class="navbar navbar-default navbar-fixed-top " id="main_navbar">
             <div class="container">
@@ -51,16 +56,40 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a id="nav-button" href="home.html">Home</a></li>
-                        <li><a id="nav-button" href="food.html">Food</a></li>
-                        <li><a id="nav-button" href="travel.html">Travel</a></li>
-                        <li><a id="nav-button" href="contact.html">Contact</a></li>
+                        <li>
+                            <div>
+                                <img src="Img/homelogo.png" alt=""> 
+                                <a id="nav-button" href="home.html">
+                                Home</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                    <img src="Img/foodlogo.png" alt=""> 
+                                    <a id="nav-button" href="food.html">
+                                    Food</a>
+                                </div>
+                        </li>
+                        <li>
+                            <div>
+                                    <img src="Img/travellogo.png" alt=""> 
+                                    <a id="nav-button" href="travel.html">
+                                    Travel</a>
+                                </div>
+                        </li>
+                        <li>
+                            <div>
+                                    <img src="Img/contactlogo.png" alt=""> 
+                                    <a id="nav-button" href="contact.html">
+                                    Contact</a>
+                                </div>
+                        </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
 
-        <section id="food-p1" class="portfolio lightbg sections" style="width: 100%; height: 55em;">
+        <section id="food-p1" class=" sections" style="width: 100%; height: 55em; background="Img/bg.jpg">
             <div class="row" id="row_set" style="padding-top: 50px">
                 <div class="col-md-8.5" style="padding-left: 20px; padding-right: 0px; ">
                     <div class="food col-xs-6 col-md-3" >
@@ -88,7 +117,7 @@
                 </div>
             </div>
         </section><!-- End of portfolio-one Section -->
-        <section id="food-p2" class="portfolio lightbg sections" style="width: 100%; height: 55em;">
+        <section id="food-p2" class="portfolio lightbg sections  grad1" style="width: 100%; height: 55em; background-color: #000; */">
                 <div class="row" id="row_set" style="padding-top: 50px">
                         <div class="food col-xs-6 col-md-3" >
                                 <img class=" zoom"  src="Img/img food/guichai.jpg">
@@ -113,7 +142,7 @@
                             <p style=" font-size: 20px; margin: 10px;">Phone number : 089 539 9427, 089 900 2086, 035 242 085</p>
                         </div>
                     </div>
-                </section><!-- End of portfolio-one Section -->
+        </section><!-- End of portfolio-one Section -->
         
         <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
         <script src="assets/js/vendor/bootstrap.min.js"></script>

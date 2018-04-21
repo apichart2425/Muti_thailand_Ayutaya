@@ -456,8 +456,9 @@ textarea::-ms-input-placeholder
 
 /*For Menu Bar*/
 .navbar-default {
-    background-color:hsl(0,100%,0%);
+    background-color: hsl(0, 0%, 53%);
     border-color: transparent;
+    /* background: url("../../wallpaper.jpg"); */
 }
 .navbar {
     min-height: 50px;
@@ -468,6 +469,7 @@ textarea::-ms-input-placeholder
     color: #ffffff;
     text-transform: uppercase;
     font-family: 'open_sanssemibold';
+
 }
 .nav>li>a:hover, .nav>li>a:focus {
     text-decoration: none;

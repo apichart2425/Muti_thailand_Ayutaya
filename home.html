@@ -1,37 +1,43 @@
 <!doctype html>
 <html class="no-js" lang=""> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Home</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <!--For Plugins external css-->
-        <link rel="stylesheet" href="assets/css/plugins.css" />
-        <link rel="stylesheet" href="assets/css/lora-web-font.css" />
-        <link rel="stylesheet" href="assets/css/opensans-web-font.css" />
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
-        <!--Theme custom css -->
-        <link rel="stylesheet" href="assets/css/style.css">
-        <!--Theme Responsive css-->
-        <link rel="stylesheet" href="assets/css/responsive.css" />
-        <link rel="stylesheet" href="assets/css/img-style.css">
-        <style>
-          .tets{
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--For Plugins external css-->
+    <link rel="stylesheet" href="assets/css/plugins.css" />
+    <link rel="stylesheet" href="assets/css/lora-web-font.css" />
+    <link rel="stylesheet" href="assets/css/opensans-web-font.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!--Theme custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Theme Responsive css-->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/img-style.css">
+
+    <style>
+        .tets{
             width: 20%
-          }
-          #nav-button{
+        }
+        #nav-button{
             color:#fff; background: none;
             font-family:ThisMyFontYeah
-          }
-        </style>
-        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    </head>
-    <body data-spy="scroll" data-target="#main_navbar" class="myfont">
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        }
+        .grad1 {
+            height: 200px;
+            background-color: #cccccc;
+            background-image: linear-gradient(hsl(27, 99%, 31%), hsl(35, 99%, 95%));
+        }
+    </style>
+    <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body data-spy="scroll" data-target="#main_navbar" class="myfont">
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div class='preloader'><div class='loaded'>&nbsp;</div></div>
         <nav class="navbar navbar-default navbar-fixed-top " id="main_navbar">
@@ -46,14 +52,14 @@
                         </div>
                     </a>
                 </div>
-
+                
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a id="nav-button" href="home.html">Home</a></li>
-                        <li><a id="nav-button" href="food.html">Food</a></li>
-                        <li><a id="nav-button" href="travel.html">Travel</a></li>
-                        <li><a id="nav-button" href="contact.html">Contact</a></li>
+                        <li><a id="nav-button"  href="home.html">HOME</a></li>
+                        <li><a id="nav-button" href="food.html">FOOD</a></li>
+                        <li><a id="nav-button" href="travel.html">TRAVEL</a></li>
+                        <li><a id="nav-button" href="contact.html">contact</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -64,102 +70,22 @@
                 <img src="Img/wallpaper.jpg" alt="" style="width: 100%; height: 80%;">
             </a>
         </section>
-        <section id="portfolio" class="portfolio lightbg sections">
-            <div class="container">
-                <div class="row">
-                    <div class="main_portfolio whitebackground">
-                        <div class="portffolio_content text-center">
-                            <div class="portffolio_menu">
-                                <div class="filters-button-group">
-                                    <button id="all_page" class="button is-checked" data-filter="*, all-traget">All</button>
-                                    <button class="button " data-filter=".new">New Update</button>
-                                    <button class="button " data-filter=".metal">Foods</button>
-                                    <button class="button " data-filter=".transition">Travel</button>
-                                    <!-- <button class="button " data-filter=".alkali, .alkaline-earth">Brand</button> -->
-                                    <!-- <button class="button " data-filter=".alkali, .metal">Web Design</button> -->
-                                </div>
-                            </div>
+        <section >
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quae quidem aliquam fuga repellat natus. Aperiam assumenda saepe debitis sequi error, amet quaerat eius iure quisquam, praesentium at labore consectetur?</div>
+        </section>
+        
+<!-- googlemap -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 
-                            <div class="portffolio_content_deteals">
-                                <div class="portfolio-one">
+<script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+<script src="assets/js/vendor/bootstrap.min.js"></script>
+<script src="assets/js/vendor/isotope.min.js"></script>
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/jquery.magnific-popup.js"></script>
+<script src="assets/js/main.js"></script>
 
-                                    <div class="col-sm-4 col-xs-12 portfolio-item transition metal new" data-category="transition">
-                                        <div class="single_portfolio_img">
-                                            <a class="" href="food.html#food-p1" src=""><img src="Img/img food/Ayutthaya5.jpg"/></a>
-                                            <h2>Food1 25/96/8564</h2>
-                                        </div>
+</body>
 
-                                    </div>
-
-                                    <div class="col-sm-4 col-xs-12 portfolio-item metalloid " data-category="metalloid">
-                                        <div class="single_portfolio_img">
-                                            <a class="" href="food.html#food-p2"><img src="Img/img food/salapao.jpg" alt="" /></a>
-                                            <h2>Food2 24/62/5246</h2>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-4 col-xs-12 portfolio-item metalloid " data-category="metalloid">
-                                            <div class="single_portfolio_img">
-                                                <a class="" href="food.html#food-p2"><img src="Img/img food/bangprapai.jpg" alt="" /></a>
-                                                <h2>Food2 24/62/5246</h2>
-                                            </div>
-                                    </div>
-
-                                    <div class="col-sm-4 col-xs-12 portfolio-item metalloid " data-category="metalloid">
-                                            <div class="single_portfolio_img">
-                                                <a class="" href="food.html#food-p2"><img src="Img/img food/guichai.jpg" alt="" /></a>
-                                                <h2>Food2 24/62/5246</h2>
-                                            </div>
-                                    </div>
-
-                                    <div class="col-sm-4 col-xs-12 portfolio-item metalloid " data-category="metalloid">
-                                            <div class="single_portfolio_img">
-                                                <a class="" href="food.html#food-p2"><img src="Img/img food/kaicheek.jpg" alt="" /></a>
-                                                <h2>Food2 24/62/5246</h2>
-                                            </div>
-                                    </div>
-
-                                    <div class="col-sm-4 col-xs-12 portfolio-item metalloid " data-category="metalloid">
-                                            <div class="single_portfolio_img">
-                                                <a class="" href="food.html#food-p2"><img src="Img/img food/kaomungai.jpg" alt="" /></a>
-                                                <h2>Food2 24/62/5246</h2>
-                                            </div>
-                                    </div>
-
-                                    <div class="col-sm-4 col-xs-12 portfolio-item metalloid " data-category="metalloid">
-                                            <div class="single_portfolio_img">
-                                                <a class="" href="food.html#food-p2"><img src="Img/img food/saimai.jpg" alt="" /></a>
-                                                <h2>Food2 24/62/5246</h2>
-                                            </div>
-                                    </div>
-
-                                    <div class="col-sm-4 col-xs-12 portfolio-item metalloid " data-category="metalloid">
-                                            <div class="single_portfolio_img">
-                                                <a class="" href="food.html#food-p2"><img src="Img/img food/salapao.jpg" alt="" /></a>
-                                                <h2>Food2 24/62/5246</h2>
-                                            </div>
-                                    </div>
-
-                                    <div class="col-sm-4 col-xs-12 portfolio-item metalloid " data-category="metalloid">
-                                            <div class="single_portfolio_img">
-                                                <a class="" href="food.html#food-p2"><img src="Img/img food/pakwan.jpg" alt="" /></a>
-                                                <h2>Food2 24/62/5246</h2>
-                                            </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><!-- End of portfolio-one Section -->
-
-        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
-        <script src="assets/js/vendor/bootstrap.min.js"></script>
-        <script src="assets/js/vendor/isotope.min.js"></script>
-        <script src="assets/js/plugins.js"></script>
-         <script src="assets/js/jquery.magnific-popup.js"></script>
-        <script src="assets/js/main.js"></script>
-    </body>
 </html>
+
+
